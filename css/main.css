@@ -1,0 +1,47 @@
+html {
+  line-height: 1.45;
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin:0;
+}
+.banner {
+  overflow: hidden;
+  max-height: 500px;
+  position: relative;
+}
+.banner-text {
+  max-width: 50em;
+  position: absolute;
+  margin:auto;
+  padding:1.5rem;
+  left:0;
+  right:0;
+  bottom:6px;
+  z-index:1;
+}
+.banner-title {
+  display: inline;
+  
+  font-size:4rem;
+  color: #fff;
+  background-color: #727272;
+}
+.banner-para {
+  margin:0;
+  font-size:2rem;
+  color:#000;
+  margin-top:.4em; 
+  font-style:italic;
+}
+
+.img-flex {
+  display:block;
+  width:100%;
+}
